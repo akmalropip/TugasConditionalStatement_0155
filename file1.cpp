@@ -33,3 +33,5 @@ int main() {
     cin >> tinggiBadan;
 
      hasilBMI = hitungBMI(beratBadan, tinggiBadan); //memanggil fungsi 1
+
+     statusBMI = tentukanStatus(hasilBMI); //memanggil fungsi 2
