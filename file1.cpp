@@ -25,13 +25,19 @@ int main() {
     float beratBadan,tinggiBadan,hasilBMI;
     string statusBMI;
 
-    //membuat prosedur input data
+ //membuat prosedur input data
     cout << "--- Selamat Datang Mahasiswa Kelas D 2025 ---" << endl;
     cout << "Masukkan berat badan (kg): ";
     cin >> beratBadan;
     cout << "Masukkan tinggi badan (meter): ";
-    cin >> tinggiBadan;
+    cin >> tinggiBadan;   
 
-     hasilBMI = hitungBMI(beratBadan, tinggiBadan); //memanggil fungsi 1
+hasilBMI = hitungBMI(beratBadan, tinggiBadan); //memanggil fungsi 1     
 
-     statusBMI = tentukanStatus(hasilBMI); //memanggil fungsi 2
+statusBMI = tentukanStatus(hasilBMI); //memanggil fungsi 2
+
+ //menampilkan output
+     cout << "--- Hasil ---" << endl;
+     cout << "BMI Anda : " << hasilBMI << endl;
+     cout << "Status : " << statusBMI << endl;
+}     
