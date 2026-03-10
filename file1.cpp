@@ -39,5 +39,5 @@ statusBMI = tentukanStatus(hasilBMI); //memanggil fungsi 2
  //menampilkan output
      cout << "--- Hasil ---" << endl;
      cout << "BMI Anda : " << hasilBMI << endl;
-     cout << "Status : " << statusBMI << endl;
+     cout << "Status   : " << statusBMI << endl;
 }     
