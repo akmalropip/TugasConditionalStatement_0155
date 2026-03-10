@@ -31,3 +31,5 @@ int main() {
     cin >> beratBadan;
     cout << "Masukkan tinggi badan (meter): ";
     cin >> tinggiBadan;
+
+     hasilBMI = hitungBMI(beratBadan, tinggiBadan); //memanggil fungsi 1
