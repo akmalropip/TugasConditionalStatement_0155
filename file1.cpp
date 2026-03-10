@@ -20,3 +20,14 @@ string tentukanStatus(float bmi) {
         return "Obesitas";
     }
 }
+
+int main() {
+    float beratBadan,tinggiBadan,hasilBMI;
+    string statusBMI;
+
+    //membuat prosedur input data
+    cout << "--- Selamat Datang Mahasiswa Kelas D 2025 ---" << endl;
+    cout << "Masukkan berat badan (kg): ";
+    cin >> beratBadan;
+    cout << "Masukkan tinggi badan (meter): ";
+    cin >> tinggiBadan;
